@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceCategory android:title="@string/pref_video_setting" >
+
+
+    <ListPreference
+        android:key="prefMemoryUsed"
+        android:entries="@array/memoryUsed"
+        android:defaultValue="750"
+        android:summary="@string/pref_memory_used"
+        android:entryValues="@array/memoryUsedValues"
+        android:title="@string/pref_memory"
+        />
+
+    <ListPreference
+        android:key="prefResolution"
+        android:entries="@array/resolutionVideo"
+        android:defaultValue="1280 720"
+        android:summary="@string/pref_resolution_description"
+        android:entryValues="@array/resolutionVideoValues"
+        android:title="@string/pref_resolution" />
+
+    <SwitchPreference
+    android:key="audioType"
+    android:summary="@string/audioTpeSummary"
+    android:title="@string/audioTypeSetting"
+    android:defaultValue="true" />
+
+</PreferenceCategory>
+    <PreferenceCategory android:title="@string/prefereces_setting" >
+
+
+        <SwitchPreference
+            android:key="audioFeedback"
+            android:summary="@string/audioFeedbackSummary"
+            android:title="@string/audioFeedbackTitle"
+            android:defaultValue="true" />
+
+        <SwitchPreference
+            android:key="dimDisplay"
+            android:summary="@string/dimDisplaySummary"
+            android:title="@string/dimDisplayTitle"
+            android:defaultValue="false" />
+    </PreferenceCategory>
+
+<PreferenceCategory android:title="@string/logout">
+
+    <Preference android:title="Log out"
+        android:key="@string/logout"
+        android:summary="Click to log out"/>
+
+</PreferenceCategory>
+
+</PreferenceScreen>

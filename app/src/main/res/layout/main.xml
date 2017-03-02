@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:keepScreenOn="true" >
+
+	<FrameLayout
+		android:id="@+id/camera_preview"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_weight="1"
+		/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/feedback"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center"
+		android:layout_marginTop="16dp"
+		android:paddingLeft="16dp"
+		android:paddingRight="16dp"
+		android:orientation="vertical"
+		android:visibility="visible">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:id="@+id/recFeedback"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_marginTop="16dp"
+			android:paddingLeft="16dp"
+			android:paddingRight="16dp"
+			android:orientation="horizontal"
+			android:visibility="visible">
+			<ImageView
+				android:id="@+id/recAnim"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:src="@drawable/rec_button"
+				/>
+			<TextView
+				android:id="@+id/recText"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp"
+				android:textColor="@color/white"
+				android:textSize="12pt"
+				android:text="@string/rec"
+				/>
+		</LinearLayout>
+		<TextView
+			android:id="@+id/additional_feedback"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:textColor="@color/white"
+			android:textSize="12pt"
+			android:text="@string/additional_feedback"
+			android:visibility="invisible"
+			/>
+	</LinearLayout>
+	<RelativeLayout
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_gravity="bottom" >
+
+		<ImageButton
+			android:id="@+id/flip_button"
+			android:src="@drawable/flip_camera"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:background="@null"
+			android:padding="8dp"
+			android:layout_alignParentTop="true"
+			android:layout_alignParentEnd="true" />
+
+	</RelativeLayout>
+
+</FrameLayout>

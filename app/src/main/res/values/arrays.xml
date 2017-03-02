@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="memoryUsed">
+        <item name="1">500 Mb</item>
+        <item name="2">750 Mb</item>
+        <item name="3">1 GB</item>
+        <item name="4">2 GB</item>
+        <item name="0">Use all space</item>
+
+    </string-array>
+    <string-array name="memoryUsedValues">
+        <item name="1">500</item>
+        <item name="2">750</item>
+        <item name="3">1000</item>
+        <item name="4">2000</item>
+        <item name="0">-1</item>
+
+    </string-array>
+
+
+    <string-array name="resolutionVideo">
+        <item name="1">HD 720p</item>
+        <item name="2">HD 1080p</item>
+    </string-array>
+    <string-array name="resolutionVideoValues">
+        <item name="1">1280 720</item>
+        <item name="2">1920 1080</item>
+    </string-array>
+</resources>

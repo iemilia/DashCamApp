@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/events"
+        android:title="event"
+        android:icon="@drawable/events"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/reported"
+        android:title="allvideos"
+        android:icon="@drawable/reported"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/all_videos"
+        android:title="settings"
+        android:icon="@drawable/raw"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+    <item
+        android:id="@+id/settings"
+        android:title="settings"
+        android:icon="@drawable/settings"
+        android:orderInCategory="1"
+        android:showAsAction="always"/>
+</menu>

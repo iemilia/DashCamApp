@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.trafficpol"
+        minSdkVersion 21
+        targetSdkVersion 23
+        // Enabling multidex support.
+        multiDexEnabled true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile files('libs/aspectjrt-1.7.3.jar')
+    compile files('libs/isoparser-1.0-RC-2.jar')
+    compile 'com.android.support:cardview-v7:+'
+    compile 'com.android.support:recyclerview-v7:+'
+    compile 'com.android.support:palette-v7:+'
+    compile files('libs/aws-android-sdk-cognito-2.2.13.jar')
+    compile files('libs/aws-android-sdk-core-2.2.13.jar')
+    compile files('libs/aws-android-sdk-ddb-2.2.13.jar')
+    compile files('libs/aws-android-sdk-s3-2.2.13.jar')
+    compile files('libs/Parse-1.13.0.jar')
+    compile files('libs/bolts-tasks-1.4.0.jar')
+    compile 'com.google.android.gms:play-services:8.1.0'
+}
+apply plugin: 'com.google.gms.google-services'

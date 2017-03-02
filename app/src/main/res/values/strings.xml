@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">TrafficPol</string>
+	<string name="gallery">Gallery</string>
+	<string name="flip">Flip</string>
+	<string name="camera_error">Camera couldn\'t start</string>
+	<string name="too_short">Video not saved.It was too short</string>
+	<string name="free_space">Not enough free space</string>
+	<string name="rec">REC</string>
+
+	<string name="how_much_to_store">How much to store</string>
+	<string name="infinite">Use all space</string>
+	<string name="one_thousand">1 GB</string>
+	<string name="seven_fifty">750 MB</string>
+	<string name="five_hundred">500 MB</string>
+	<string name="two_thousand">2 GB</string>
+	<string name="one_hundred">100 MB</string>
+	<string name="event_captured">Event is being captured</string>
+
+	<!-- signup-->
+	<string name="Email">Email</string>
+	<string name="Password">Password</string>
+	<string name="Username">Username</string>
+	<string name="SignupBtn">SignUp</string>
+
+	<!--login -->
+	<string name="LoginBtn">Login</string>
+	<string name="forgot_password_button_label">forgot password</string>
+	<!--login recover pass-->
+	<string name="login_help_instructions">Enter your email to recover your password</string>
+	<string name="login_help_email_input_hint">Email</string>
+	<string name="help_submit_button_label">Submit</string>
+
+	<string name="description">Please tell us what you have witnessed in detail</string>
+	<string name="status">REPORTED</string>
+	<string name="feedback_status">Evaluation in progress</string>
+	<string name="additional_feedback">Wait for the event to be captured</string>
+
+	<string name="cat1">accident</string>
+	<string name="cat2">dangerous behaviour</string>
+	<string name="cat3">traffic violation</string>
+	<string name="cat4">violance</string>
+	<string name="cat5">burglary</string>
+	<string name="cat6">dangerous place</string>
+	<string name="cat7">littering</string>
+	<string name="catother">other</string>
+
+	<!--strings for card3-->
+	<string name="day">" "</string>
+	<string name="month">MAR</string>
+	<string name="time">17:30</string>
+	<string name="address">Daejeon,South Korea</string>
+	<string name="report">report</string>
+	<string name="video_null_pointer_message">no video</string>
+	<string name="location_not_found">No location available</string>
+	<string name="no_cuts">0</string>
+
+	<!--settings-->
+	<string name="pref_user_profile">User Profile</string>
+	<string name="pref_video_setting">Video Recording Settings</string>
+	<string name="prefereces_setting">Sound &amp; Screen Settings</string>
+
+	<string name="pref_memory_used">Set the amount of memory that will be used for storing video recordings</string>
+	<string name="pref_memory">Set memory size to use</string>
+
+	<string name="pref_resolution_description">Set the resolution for video recordings</string>
+	<string name="pref_resolution">Set video resolution</string>
+
+	<string name="audioTpeSummary">Set if the videos should record audio content or not</string>
+	<string name="audioTypeSetting">Record audio(unimplemented)</string>
+
+	<string name="audioFeedbackSummary">Sound notification when camera is on and off</string>
+	<string name="audioFeedbackTitle">Camera sound feedback</string>
+
+	<string name="logout">Log out</string>
+
+	<string name="dimDisplaySummary">Dimming the display during continuous recording</string>
+	<string name="dimDisplayTitle">Dim screen</string>
+
+	<string name="scissors">Cutting</string>
+	<string name="to">To</string>
+	<string name="from">From</string>
+	<string name="toTxt">00:00</string>
+	<string name="fromTxt">00:00</string>
+	<string name="cancel">Cancel</string>
+
+	<string name="no_internet_warning">No internet connection.</string>>
+
+<string name="change"></string>
+</resources>

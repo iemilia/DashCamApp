@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="570dp"
+        android:layout_height="90dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardBackgroundColor="@color/darkBlue">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:background="@color/white"
+            >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="8dp"
+
+                    >
+                    <TextView
+                        android:id="@+id/recorded"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="8pt"
+                        android:layout_gravity="center"
+                        android:text="RECORDED" />
+                    <TextView
+                        android:id="@+id/day"
+                        android:layout_marginTop="2dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="12pt"
+                        android:layout_gravity="center"
+                        android:text="@string/day" />
+                    <TextView
+                        android:id="@+id/month"
+                        android:textSize="8pt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/month"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5pt"
+                    android:layout_marginLeft="15pt"
+
+                    >
+                    <TextView
+                        android:id="@+id/time"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/time"
+                        android:layout_gravity="center"/>
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/address"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>

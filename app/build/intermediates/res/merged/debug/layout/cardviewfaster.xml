@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+        card_view:cardBackgroundColor="@color/darkBlue">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+
+            >
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:id="@+id/container_up"
+
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/clock"
+                    android:id="@+id/clockicon"
+                    android:layout_weight="1"
+                    />
+                <TextView
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:id="@+id/textView"
+                    android:layout_gravity="center"
+                    android:textSize="7pt"
+                    android:text="@string/time"
+                    android:layout_weight="4"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:textColor="@color/white"
+                    android:id="@+id/status"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:textSize="7pt"
+                    android:text="@string/day"
+                    android:layout_weight="2"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="70dp"
+                android:orientation="horizontal"
+                android:background="@color/lightBlue"
+                android:id="@+id/container_down">
+                <ImageButton
+                    android:layout_margin="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center"
+                    android:id="@+id/play"
+                    android:background="@drawable/play"
+
+                    />
+                <TextView
+                    android:layout_margin="5dp"
+                    android:id="@+id/location"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="9pt"
+                    android:text="@string/location_not_found"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

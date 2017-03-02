@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_dialog_time.png",
+        "source": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\src\\main\\res\\drawable-ldpi\\ic_dialog_time.png"
+    },
+    {
+        "merged": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_menu_gallery.png",
+        "source": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\src\\main\\res\\drawable-ldpi\\ic_menu_gallery.png"
+    },
+    {
+        "merged": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_switch_photo_facing_holo_light.png",
+        "source": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\src\\main\\res\\drawable-ldpi\\ic_switch_photo_facing_holo_light.png"
+    }
+]

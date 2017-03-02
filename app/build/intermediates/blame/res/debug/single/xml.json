@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\build\\intermediates\\res\\merged\\debug\\xml\\settings.xml",
+        "source": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\src\\main\\res\\xml\\settings.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\build\\intermediates\\res\\merged\\debug\\xml\\analytics.xml",
+        "source": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\src\\main\\res\\xml\\analytics.xml"
+    },
+    {
+        "merged": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\build\\intermediates\\res\\merged\\debug\\xml\\global_tracker.xml",
+        "source": "D:\\WorkFolder\\31.03 DashCamApp - redo - 1.04\\app\\build\\generated\\res\\google-services\\debug\\xml\\global_tracker.xml"
+    }
+]

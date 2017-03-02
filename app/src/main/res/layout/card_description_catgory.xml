@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_gravity="center"
+        android:layout_width="570dp"
+        android:layout_height="280dp"
+        android:layout_margin="5dp"
+        card_view:cardCornerRadius="2dp"
+
+        card_view:cardBackgroundColor="@color/darkBlue">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:background="@color/white"
+                android:id="@+id/description"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:layout_width="fill_parent"
+                android:layout_height="180dp"
+                android:hint="@string/description"
+                android:gravity="top|start"
+                />
+            <LinearLayout
+                android:layout_width="570dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white">
+                <TextView
+                    android:id="@+id/label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pick Category"
+                    android:textSize="10pt"
+                    />
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:columnCount="4"
+                        android:rowCount="2"
+                        android:id="@+id/gridbut">
+                    <RadioButton android:id="@+id/cat1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat1"
+                        android:checked="true"
+                       />
+                    <RadioButton android:id="@+id/cat2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat2"
+                        />
+                    <RadioButton android:id="@+id/cat3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat3"
+                        />
+                    <RadioButton android:id="@+id/cat4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat4"
+                        />
+                    <RadioButton android:id="@+id/cat5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat5"
+                        />
+                    <RadioButton android:id="@+id/cat6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat6"
+                        />
+                    <RadioButton android:id="@+id/cat7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/cat7"
+                        />
+                    <RadioButton android:id="@+id/catother"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/catother"
+                        ></RadioButton>
+                    </GridLayout>
+                    <EditText android:id="@+id/othercat"
+                        android:layout_width="wrap_content"
+                        android:textColor="@color/black"
+                        android:visibility="invisible"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/gridbut"
+                        android:layout_toRightOf="@+id/gridbut"
+                        android:hint="@string/catother"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>
